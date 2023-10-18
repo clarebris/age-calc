@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+    Font-size : 32px;
+}
+.container{
+    background-color: white;
+    width: 80vw;
+    border-radius:20px ;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    height: 60vh;
+    border-bottom-right-radius: 40%;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+    
+}
+.user>input{
+    height:40px ;
+    display: flex;
+    border-radius: 10px;
+    font-weight: bold;
+    width:100px ;
+    color:   hsl(0, 1%, 44%);
+    font-size: medium;
+    
+     
+     
+
+}
+
+#button{
+     border-radius: 50%;
+     background-color: purple; 
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;  
+    
+    
+}
+
+.button> svg{
+    width: 30px;
+    color: black;
+    
+}
+.results{
+    Font-size : 32px;
+}
+.main{
+    
+    
+}
+.user>label{
+    color:  hsl(0, 0%, 86%);
+    font-size: 15px;
+    font-weight: 700i;
+    text-align: left;
+    margin-bottom: 15px;
+    text-align: start;
+}
+#day1,#month1,#year1{
+    color: hsl(259, 100%, 65%);
+    padding: 20px;
+}
+#invalid{
+    color: red;
+}
